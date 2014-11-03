@@ -1,0 +1,208 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow: scroll;
+	font-family: arial;
+	font-size: 18px;
+}
+
+#nav {
+	background-color: #222;
+
+}
+
+#nav wrapper {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#nav ul li {
+	display: inline-block;
+}
+
+#nav ul li:hover {
+	background-color: #333;
+
+}
+
+#nav ul li a, visited{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	color: #ccc
+	text-decoration: none;
+
+}
+
+#nav ul li:hover ul{
+	display: block;
+
+}
+
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: #333;
+	border: 5px solid #222;
+	border-top: 0;
+	margin-left: -5px;
+	min-width: 25px;
+}
+
+#nav ul ul li{
+	display: block;
+}
+
+#nav ul ul li a,visited{
+	color: #ccc;
+
+}
+
+#nav ul ul li a:hover {
+	color: #099;
+}
+
+#banner {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                width: 100%;
+                height: 200px;
+                z-index: -1;
+            }
+
+  
+.animate-wrap {
+  position: relative;
+  width: 220px; height: 220px;
+  background-color: #aaa;
+  -webkit-perspective: 1000;
+     -moz-perspective: 1000;
+          perspective: 1000;
+}
+
+animate-wrap input {
+  display: none;
+}
+.animate-wrap [type="radio"]:checked + .animate {
+  -webkit-transform: rotateY(180deg);
+     -moz-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+ 
+ .animate {
+  -webkit-transform-style: preserve-3d;
+     -moz-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 0.5s ease-out;
+     -moz-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out;
+}
+
+label {
+  position: absolute; top: 3; left: 5; z-index: 2;
+  -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+ 
+.back {
+  -webkit-transform: rotateY(180deg);
+     -moz-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.front {
+  z-index: 1;
+}
+
+
+#footer {
+	background-color: #222;
+	position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+
+}
+
+#footer wrapper {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+
+}
+
+#footer ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+}
+
+#footer ul li {
+	display: inline-block;
+}
+
+#footer ul li:hover {
+	background-color: #333;
+
+}
+
+#footer ul li a, visited{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#footer ul li a:hover{
+	color: #ccc
+	text-decoration: none;
+
+}
+
+#footer ul li:hover ul{
+	display: block;
+
+}
+
+#footer ul ul{
+	display: none;
+	position: absolute;
+	background-color: #333;
+	border: 5px solid #222;
+	border-top: 0;
+	margin-left: -5px;
+	min-width: 25px;
+}
+
+#footer ul ul li{
+	display: block;
+}
+
+#footer ul ul li a,visited{
+	color: #ccc;
+
+}
+
+#footer ul ul li a:hover {
+	color: #099;
